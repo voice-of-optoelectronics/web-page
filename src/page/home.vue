@@ -87,7 +87,7 @@ setInterval(() => {
 
           <div class="pose-display">
             <el-tag
-                :type="poseConfig[currentPose].color"
+                :type="poseConfig[currentPose].color as any"
                 class="pose-tag"
                 effect="dark"
             >
